@@ -2,6 +2,7 @@ body{
 	background-color:whitesmoke;
 	color:#555;
 	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
 	font-size:16px;
 	line-height:1.6em;
 	margin:0;
@@ -15,7 +16,7 @@ body{
 {
 	list-style:none;
 	position:relative;
-	float:left;
+	float:center;
 	margin:0;
 	padding:0
 }
@@ -26,9 +27,9 @@ body{
 	color:#333;
 	text-decoration:none;
 	font-weight:700;
-	font-size:12px;
+	font-size:15px;
 	line-height:32px;
-	padding:0 15px;
+	padding:0 32px;
 	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
@@ -47,7 +48,7 @@ body{
 
 #primary_nav_wrap ul li:hover
 {
-	background:#f6f6f6
+	background:#9054ac
 }
 
 #primary_nav_wrap ul ul
@@ -75,7 +76,7 @@ body{
 #primary_nav_wrap ul ul ul
 {
 	top:0;
-	left:100%
+	left:50%
 }
 
 #primary_nav_wrap ul li:hover > ul
@@ -155,6 +156,7 @@ body{
 .float-container {
 	color: lightgray;
     border: 3px solid black;
+	font-size: 60px;
     padding: 20px;
 	width:95%;
 	margin:auto;
@@ -164,8 +166,8 @@ body{
 .float-child-L {
     width: 25%;
     float: left;
-	background:darkolivegreen;
-	color:floralwhite;
+	background:rgba(55, 39, 199, 0.281);
+	color:rgb(0, 0, 0);
 	font-size: 20px;
 	text-align: center;
     padding: 20px;
@@ -173,14 +175,14 @@ body{
 }  
 
 .float-child-R {
-    width: 65%;
+    width: 70%;
     float: right;
-	background:wheat;
-	color:darkslategray;
-	font-size: 22px;
+	background:rgba(55, 39, 199, 0.281);
+	color:rgb(7, 6, 6);
+	font-size: 18px;
 	font-weight: 800 ;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-    padding: 35px;
+    padding: 5px;
     border: 2px solid black;
 }  
